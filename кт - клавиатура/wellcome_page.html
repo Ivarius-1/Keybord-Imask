@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КАРТА ПАЦИЕНТА</title>
+    <style>
+        
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+        <h1>ЗДРАВСТВУЙТЕ, ПАЦИЕНТ!</h1>
+        <h2>Пожалуйста, заполните анкету!</h2>
+
+        <div class="inputs">
+        <input type="text" id="surname" placeholder="Фамилия">
+        <input type="text" id="name" placeholder="Имя">
+        <input type="text" id="patronymic" placeholder="Отчество">
+        <input type="text" id="phone">
+        <input type="text" id="year" placeholder="Год рождения">
+        </div>
+
+
+        <div class="container-kayboard">
+            <!-- КЛАВИАТУРА НАЧАЛО -->
+            <div class="line one">
+                <button>ё</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>0</button>
+                <button>-</button>
+                <button>=</button>
+                <button class="back">Backspace</button>
+            </div>
+            <div class="line two">
+                <button class="tab">Tab</button>
+                <button>й</button>
+                <button>ц</button>
+                <button>у</button>
+                <button>к</button>
+                <button>е</button>
+                <button>н</button>
+                <button>г</button>
+                <button>ш</button>
+                <button>щ</button>
+                <button>з</button>
+                <button>х</button>
+                <button>ъ</button>
+                <button class="slice">/</button>
+            </div>
+            <div class="line three">
+                <button class="caps">CapsLock</button>
+                <button>ф</button>
+                <button>ы</button>
+                <button>в</button>
+                <button>а</button>
+                <button>п</button>
+                <button>р</button>
+                <button>о</button>
+                <button>л</button>
+                <button>д</button>
+                <button>ж</button>
+                <button>э</button>
+                <button class="enter-btn">ENTER</button>
+            </div>
+            <div class="line four">
+                <button class="shift">SHIFT</button>
+                <button>я</button>
+                <button>ч</button>
+                <button>с</button>
+                <button>м</button>
+                <button>и</button>
+                <button>т</button>
+                <button>ь</button>
+                <button>б</button>
+                <button>ю</button>
+                <button>.</button>
+                <button class="shiftleft">SHIFT</button>
+            </div>
+            <div class="line five">
+                <button class="other">Ctrl</button>
+                <button class="other">Alt</button>
+                <button class="space">SPACE</button>
+                <button class="other">Alt</button>
+                <button class="other">@mail.ru</button>
+            </div>
+            </div>
+
+            <script src="https://unpkg.com/imask"></script>
+            <script src="scriptwelcom.js"></script>
+</body>
+</html>

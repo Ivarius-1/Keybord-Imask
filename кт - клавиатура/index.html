@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КЛАВИАТУРА</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-login">
+    <h2>РЕГИСТРАЦИЯ ПОЛЬЗОВАТЕЛЯ</h2>
+    <label for="inputName">Электронный ящик :</label>
+    <br><br>
+    <div id = "inputs">
+    <input type="email" id="emailid" name="email" placeholder="Ваш E-mail" required>
+    <br><br>
+    <label for="inputPassword">ПАРОЛЬ :</label>
+    <br><br>
+    <input type="password" id="password" name="pass" placeholder="Ваш пароль" required>
+</div>
+    <br><br><br>
+    <button class="login-btn" onclick="login()">ВОЙТИ</button>
+    </div>
+    <div class="container-kayboard">
+    <div class="line one">
+        <button>`</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>  
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>0</button>
+        <button>-</button>
+        <button>=</button>
+        <button class="back">Backspace</button>
+    </div>
+    <div class="line two">
+        <button class="tab">Tab</button>
+        <button>q</button>
+        <button>w</button>
+        <button>e</button>
+        <button>r</button>
+        <button>t</button>
+        <button>y</button>
+        <button>u</button>
+        <button>i</button>
+        <button>o</button>
+        <button>p</button>
+        <button>[</button>
+        <button>]</button>
+        <button class="slice">/</button>
+    </div>
+    <div class="line three">
+        <button class="caps">CapsLock</button>
+        <button>a</button>
+        <button>s</button>
+        <button>d</button>
+        <button>f</button>
+        <button>g</button>
+        <button>h</button>
+        <button>j</button>
+        <button>k</button>
+        <button>l</button>
+        <button>;</button>
+        <button>'</button>
+        <button class="enter-btn">ENTER</button>
+    </div>
+    <div class="line four">
+        <button class="shift">SHIFT</button>
+        <button>z</button>
+        <button>x</button>
+        <button>c</button>
+        <button>v</button>
+        <button>b</button>
+        <button>n</button>
+        <button>m</button>
+        <button>,</button>
+        <button>.</button>
+        <button>/</button>
+        <button class="shiftleft">SHIFT</button>
+    </div>
+    <div class="line five">
+        <button class="other">Ctrl</button>
+        <button class="other">Alt</button>
+        <button class="space">SPACE</button>
+        <button class="other">Alt</button>
+        <button class="other">@mail.ru</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

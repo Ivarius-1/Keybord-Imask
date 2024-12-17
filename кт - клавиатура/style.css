@@ -1,0 +1,88 @@
+body{
+    background-color: blanchedalmond; 
+}
+.container-login {
+   margin: 200px 0 50px 400px;
+}
+label{
+    font-size: 20px;
+}
+.container-keyboard{
+    margin: 200px 0 0 400px
+}
+.line{
+    width: 100%;
+    height: 60px;
+}
+.one, .two, .three, .four, .five{
+    margin: 10px 0 0 0;
+}
+button{
+    color: black;
+    width: 55px;
+    height: 55px;
+    border: 0;
+    border-radius: 20%;
+    background: rgb(207, 172, 118);
+    box-shadow: 5px 5px 10px #474343, -5px -5px 10px #fff;
+    font-size: 20px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:active{
+    box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343
+}
+.back{
+    width: 160px;
+    border-radius: 10px;
+}
+.tab{
+    width: 85px;
+    border-radius: 10px;
+}
+.slice{
+    width: 130px;
+    border-radius: 10px;
+}
+.caps{
+    width: 110px;
+    border-radius: 10px;
+}
+.enter-btn{
+    width: 170px;
+    border-radius: 10px;
+}
+.shift{
+    width: 140px;
+    border-radius: 10px;
+}
+.shiftleft{
+    width: 205px;
+    border-radius: 10px;
+}
+
+.other{
+    width: 90px;
+    border-radius: 10px;
+}
+
+.space{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.login-btn{
+    width: 150px;
+    border-radius: 10px;
+    background: rgb(109, 139, 24);
+
+}
+.inputs{
+width: 300px;
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 4px;
+flex-direction: column;
+}
